@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[tc1 excuted]]>
+    </line>
+    <line>
+      <![CDATA[tc2 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc3 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc2 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc2 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc2 executed]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="81" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="81" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+      <class name="p2.ClassB">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:p2.ClassB@17d677df]" name="tc2" duration-ms="1" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:p2.ClassB@17d677df]" name="tc3" duration-ms="2" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc3 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:p2.ClassB@17d677df]" name="tc4" duration-ms="1" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:p2.ClassB@17d677df]" name="tc5" duration-ms="1" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:0, instance:p2.ClassB@17d677df]" name="tc6" duration-ms="2" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+      </class> <!-- p2.ClassB -->
+      <class name="p1.ClassA">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:p1.ClassA@11438d26]" name="tc1" duration-ms="11" started-at="2023-01-05T12:51:31 IST" finished-at="2023-01-05T12:51:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc1 excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- p1.ClassA -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
